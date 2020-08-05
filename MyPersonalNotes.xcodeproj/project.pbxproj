@@ -3,25 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143A77A424D8DA3A002E0F92 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143A77A224D8DA3A002E0F92 /* CustomTableViewCell.swift */; };
+		143A77A524D8DA3A002E0F92 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 143A77A324D8DA3A002E0F92 /* CustomTableViewCell.xib */; };
+		14AE600D2472AEFB000D8258 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AE600C2472AEFB000D8258 /* AddNoteViewController.swift */; };
 		14B316AC2471D64C00F4D03D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316AB2471D64C00F4D03D /* AppDelegate.swift */; };
-		14B316AE2471D64C00F4D03D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316AD2471D64C00F4D03D /* ViewController.swift */; };
 		14B316B12471D64C00F4D03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B316AF2471D64C00F4D03D /* Main.storyboard */; };
 		14B316B32471D64D00F4D03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14B316B22471D64D00F4D03D /* Assets.xcassets */; };
 		14B316B62471D64D00F4D03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14B316B42471D64D00F4D03D /* LaunchScreen.storyboard */; };
+		14B316BE2471D77000F4D03D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14B316BD2471D77000F4D03D /* GoogleService-Info.plist */; };
+		14B316C02471DAA000F4D03D /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316BF2471DAA000F4D03D /* NoteViewController.swift */; };
+		14B316C72471DF4D00F4D03D /* FirebaseRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316C62471DF4D00F4D03D /* FirebaseRepo.swift */; };
+		14B316CC2471E4DE00F4D03D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316CB2471E4DE00F4D03D /* Note.swift */; };
+		14B316CE2471F59500F4D03D /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316CD2471F59500F4D03D /* AuthManager.swift */; };
+		14B316D02471F65C00F4D03D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316CF2471F65C00F4D03D /* LoginViewController.swift */; };
+		14B316D32472002000F4D03D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316D22472002000F4D03D /* ViewController.swift */; };
+		14B316D5247203B100F4D03D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B316D4247203B000F4D03D /* RegisterViewController.swift */; };
+		D5F73BDC8D42DA6038984B98 /* Pods_MyPersonalNotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1607D4E7D98A20696B51A3 /* Pods_MyPersonalNotes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143A77A224D8DA3A002E0F92 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		143A77A324D8DA3A002E0F92 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		14AE600C2472AEFB000D8258 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
 		14B316A82471D64C00F4D03D /* MyPersonalNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPersonalNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14B316AB2471D64C00F4D03D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		14B316AD2471D64C00F4D03D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14B316B02471D64C00F4D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14B316B22471D64D00F4D03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14B316B52471D64D00F4D03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14B316B72471D64D00F4D03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14B316BD2471D77000F4D03D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14B316BF2471DAA000F4D03D /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		14B316C62471DF4D00F4D03D /* FirebaseRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRepo.swift; sourceTree = "<group>"; };
+		14B316CB2471E4DE00F4D03D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		14B316CD2471F59500F4D03D /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		14B316CF2471F65C00F4D03D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		14B316D22472002000F4D03D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14B316D4247203B000F4D03D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		387769E497F12A76C389E24E /* Pods-MyPersonalNotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPersonalNotes.release.xcconfig"; path = "Target Support Files/Pods-MyPersonalNotes/Pods-MyPersonalNotes.release.xcconfig"; sourceTree = "<group>"; };
+		9A317698938F3E7829E89160 /* Pods-MyPersonalNotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPersonalNotes.debug.xcconfig"; path = "Target Support Files/Pods-MyPersonalNotes/Pods-MyPersonalNotes.debug.xcconfig"; sourceTree = "<group>"; };
+		9E1607D4E7D98A20696B51A3 /* Pods_MyPersonalNotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPersonalNotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F73BDC8D42DA6038984B98 /* Pods_MyPersonalNotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +65,8 @@
 			children = (
 				14B316AA2471D64C00F4D03D /* MyPersonalNotes */,
 				14B316A92471D64C00F4D03D /* Products */,
+				DAD8514D933AD7863F02F9A1 /* Pods */,
+				B03A5EB2C3FFA19139F27544 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,65 @@
 		14B316AA2471D64C00F4D03D /* MyPersonalNotes */ = {
 			isa = PBXGroup;
 			children = (
+				14B316D12471FFE900F4D03D /* views */,
+				14B316C32471DDA200F4D03D /* firebase */,
+				14B316C82471E4C100F4D03D /* models */,
 				14B316AB2471D64C00F4D03D /* AppDelegate.swift */,
-				14B316AD2471D64C00F4D03D /* ViewController.swift */,
 				14B316AF2471D64C00F4D03D /* Main.storyboard */,
 				14B316B22471D64D00F4D03D /* Assets.xcassets */,
 				14B316B42471D64D00F4D03D /* LaunchScreen.storyboard */,
+				14B316BD2471D77000F4D03D /* GoogleService-Info.plist */,
 				14B316B72471D64D00F4D03D /* Info.plist */,
+				143A77A224D8DA3A002E0F92 /* CustomTableViewCell.swift */,
+				143A77A324D8DA3A002E0F92 /* CustomTableViewCell.xib */,
 			);
 			path = MyPersonalNotes;
+			sourceTree = "<group>";
+		};
+		14B316C32471DDA200F4D03D /* firebase */ = {
+			isa = PBXGroup;
+			children = (
+				14B316C62471DF4D00F4D03D /* FirebaseRepo.swift */,
+				14B316CD2471F59500F4D03D /* AuthManager.swift */,
+			);
+			path = firebase;
+			sourceTree = "<group>";
+		};
+		14B316C82471E4C100F4D03D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				14B316CB2471E4DE00F4D03D /* Note.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		14B316D12471FFE900F4D03D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				14B316CF2471F65C00F4D03D /* LoginViewController.swift */,
+				14B316BF2471DAA000F4D03D /* NoteViewController.swift */,
+				14B316D22472002000F4D03D /* ViewController.swift */,
+				14B316D4247203B000F4D03D /* RegisterViewController.swift */,
+				14AE600C2472AEFB000D8258 /* AddNoteViewController.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		B03A5EB2C3FFA19139F27544 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E1607D4E7D98A20696B51A3 /* Pods_MyPersonalNotes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAD8514D933AD7863F02F9A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A317698938F3E7829E89160 /* Pods-MyPersonalNotes.debug.xcconfig */,
+				387769E497F12A76C389E24E /* Pods-MyPersonalNotes.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14B316BA2471D64D00F4D03D /* Build configuration list for PBXNativeTarget "MyPersonalNotes" */;
 			buildPhases = (
+				C85ED11C4311FDAB42D4F91D /* [CP] Check Pods Manifest.lock */,
 				14B316A42471D64C00F4D03D /* Sources */,
 				14B316A52471D64C00F4D03D /* Frameworks */,
 				14B316A62471D64C00F4D03D /* Resources */,
+				A918BEFDC4BFDB2640FD40CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +203,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				14B316B62471D64D00F4D03D /* LaunchScreen.storyboard in Resources */,
+				14B316BE2471D77000F4D03D /* GoogleService-Info.plist in Resources */,
 				14B316B32471D64D00F4D03D /* Assets.xcassets in Resources */,
+				143A77A524D8DA3A002E0F92 /* CustomTableViewCell.xib in Resources */,
 				14B316B12471D64C00F4D03D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A918BEFDC4BFDB2640FD40CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPersonalNotes/Pods-MyPersonalNotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPersonalNotes/Pods-MyPersonalNotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPersonalNotes/Pods-MyPersonalNotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C85ED11C4311FDAB42D4F91D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPersonalNotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14B316A42471D64C00F4D03D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B316AE2471D64C00F4D03D /* ViewController.swift in Sources */,
+				14B316D5247203B100F4D03D /* RegisterViewController.swift in Sources */,
+				14B316CC2471E4DE00F4D03D /* Note.swift in Sources */,
+				143A77A424D8DA3A002E0F92 /* CustomTableViewCell.swift in Sources */,
+				14B316CE2471F59500F4D03D /* AuthManager.swift in Sources */,
+				14B316C72471DF4D00F4D03D /* FirebaseRepo.swift in Sources */,
+				14B316D02471F65C00F4D03D /* LoginViewController.swift in Sources */,
+				14B316C02471DAA000F4D03D /* NoteViewController.swift in Sources */,
 				14B316AC2471D64C00F4D03D /* AppDelegate.swift in Sources */,
+				14B316D32472002000F4D03D /* ViewController.swift in Sources */,
+				14AE600D2472AEFB000D8258 /* AddNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +412,7 @@
 		};
 		14B316BB2471D64D00F4D03D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A317698938F3E7829E89160 /* Pods-MyPersonalNotes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +431,7 @@
 		};
 		14B316BC2471D64D00F4D03D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 387769E497F12A76C389E24E /* Pods-MyPersonalNotes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
